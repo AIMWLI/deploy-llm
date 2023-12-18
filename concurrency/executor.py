@@ -53,3 +53,17 @@ class RateLimiter:
             return False
         self.timestamps.append(now)
         return True
+
+
+class TaskGroup:
+    def __init__(self, max_workers=4):
+        self.executor = ThreadPoolExecutor(max_workers=max_workers)
+        self.tasks = []
+
+    def add(self, fn, *args):
+        fut = self.executor.submit(fn, *args)
+        self.tasks.append(fut)
+        return fut
+
+    def results(self):
+        return [t.result() for t in self.tasks]

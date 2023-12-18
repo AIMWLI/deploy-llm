@@ -33,3 +33,14 @@ def pipe(*funcs):
             x = f(x)
         return x
     return piped
+
+
+def partition(pred, items):
+    true_list = []
+    false_list = []
+    for item in items:
+        if pred(item):
+            true_list.append(item)
+        else:
+            false_list.append(item)
+    return true_list, false_list

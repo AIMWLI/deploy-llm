@@ -99,3 +99,15 @@ def dual_pivot_partition(arr, low, high):
     arr[low], arr[lt] = arr[lt], arr[low]
     arr[high], arr[gt] = arr[gt], arr[high]
     return lt, gt
+# Utility: check if array is sorted
+
+def is_sorted(arr):
+    return all(arr[i] <= arr[i + 1] for i in range(len(arr) - 1))
+
+
+def benchmark_sort(fn, size=1000):
+    import random, time
+    data = [random.randint(0, 10000) for _ in range(size)]
+    start = time.perf_counter()
+    fn(data)
+    return time.perf_counter() - start
