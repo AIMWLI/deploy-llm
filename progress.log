@@ -25,3 +25,4 @@
 2025-10-06: pipe utility
 2025-10-06: RetryConfig class
 2025-10-06: add type hints
+2025-10-07: retry with backoff
