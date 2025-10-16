@@ -34,3 +34,4 @@
 2025-10-14: rate limiter
 2025-10-14: fix merge sort edge case
 2025-10-16: retry with backoff
+2025-10-16: reverse linked list
