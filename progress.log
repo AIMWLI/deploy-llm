@@ -60,3 +60,4 @@
 2025-11-08: minor fixes
 2025-11-08: clean up imports
 2025-11-08: retry with backoff
+2025-11-09: utility helpers
