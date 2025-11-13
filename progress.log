@@ -62,3 +62,4 @@
 2025-11-08: retry with backoff
 2025-11-09: utility helpers
 2025-11-09: curry implementation
+2025-11-13: add brackets validation
