@@ -64,3 +64,4 @@
 2025-11-09: curry implementation
 2025-11-13: add brackets validation
 2025-11-13: chunk list helper
+2025-11-14: concurrency module init
