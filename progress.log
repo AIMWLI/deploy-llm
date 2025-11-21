@@ -72,3 +72,4 @@
 2025-11-18: add type hints
 2025-11-19: reverse linked list
 2025-11-20: map filter reduce
+2025-11-21: implement dual pivot quicksort
