@@ -74,3 +74,4 @@
 2025-11-20: map filter reduce
 2025-11-21: implement dual pivot quicksort
 2025-11-21: retry with backoff
+2025-11-21: minor fixes
