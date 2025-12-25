@@ -100,3 +100,4 @@
 2025-12-22: retry with backoff
 2025-12-23: refactor sort module
 2025-12-25: compose function
+2025-12-25: add brackets validation
