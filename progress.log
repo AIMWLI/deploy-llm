@@ -123,3 +123,4 @@
 2026-01-21: safe_get helper
 2026-01-22: fix merge sort edge case
 2026-01-22: clean up imports
+2026-01-26: compose function
