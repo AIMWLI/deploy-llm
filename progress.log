@@ -130,3 +130,4 @@
 2026-01-27: retry with backoff
 2026-01-28: utility helpers
 2026-01-28: working on sort algorithms
+2026-01-29: add heap sort
