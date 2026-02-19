@@ -143,3 +143,4 @@
 2026-02-11: timer decorator
 2026-02-18: reverse linked list
 2026-02-19: compose function
+2026-02-19: curry implementation
