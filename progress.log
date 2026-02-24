@@ -149,3 +149,4 @@
 2026-02-20: batch processing
 2026-02-22: map filter reduce
 2026-02-22: rate limiter
+2026-02-24: curry implementation
