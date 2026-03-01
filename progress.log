@@ -150,3 +150,4 @@
 2026-02-22: map filter reduce
 2026-02-22: rate limiter
 2026-02-24: curry implementation
+2026-03-01: add type hints
