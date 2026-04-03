@@ -175,3 +175,4 @@
 2026-03-29: rate limiter
 2026-03-30: retry with backoff
 2026-04-01: safe_get helper
+2026-04-03: add two sum solution
