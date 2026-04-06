@@ -176,3 +176,4 @@
 2026-03-30: retry with backoff
 2026-04-01: safe_get helper
 2026-04-03: add two sum solution
+2026-04-06: thread pool demo
