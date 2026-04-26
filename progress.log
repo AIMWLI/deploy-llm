@@ -195,3 +195,4 @@
 2026-04-22: refactor sort module
 2026-04-25: functional programming demo
 2026-04-25: retry with backoff
+2026-04-26: compose function
