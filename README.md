@@ -1,15 +1,58 @@
-### output </br>
-xiangyin@DESKTOP-3GKCH15:~$ python3 apply_chat_template.py</br>
-Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:20<00:00,  5.02s/it]</br>
-AutoModelForCausalLM#from_pretrained completed</br>
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.</br>
- AutoTokenizer#from_pretrained completed</br>
-The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.</br>
-大型语言模型，通常被称为大语言模型（Large Language Model, LLM），是一种机器学习模型，专门用于生成与给定输入相关的自然语言文本。这些模型通过大量的文本数据进行训练，可以理解和生成各种风格和类型的文本，包括但不限于文章、故事、对话、代码等。</br>
+# 🚀 Deploy LLM & High-Performance Python Tooling
 
-在训练过程中，大型语言模型学习了大量语言的规律和结构，从而能够根据提示或指令生成连贯、有意义的文本。它们在多个领域有着广泛的应用，如辅助写作、对话系统、文本摘要、翻译以及创意生成等。近年来，随着计算能力和数据量的提升，大型语言模型的性能得到了显著增强，成为人工智能研究中的重要组成部分。
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
+[![Framework](https://img.shields.io/badge/Framework-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-值得注意的是，尽管大型语言模型在许多方面表现出色，但也存在一些局限性和潜在风险，比如生成不准确的信息、偏见问题以及安全风险等。因此，在应用这些模型时需要谨慎，并采取相应的措施来确保其负责任和道德使用。</br>
-xiangyin@DESKTOP-3GKCH15:~$</br>
+An industrial-grade repository focused on Large Language Model (LLM) deployment and high-throughput Python systems. Designed for performance, scalability, and adherence to elite engineering standards.
 
+---
 
+## 🌟 Key Features
+
+### 1. LLM Inference & Deployment
+- **Efficient Templates**: Implementation of `AutoTokenizer.apply_chat_template` for optimized prompt engineering.
+- **Optimized Loading**: Utilizing `torch_dtype="auto"` and `device_map="auto"` for maximum hardware utilization.
+- **Production Ready**: Tested with Qwen and other state-of-the-art open-source models.
+
+### 2. High-Performance Concurrency
+- **Asyncio Mastery**: Demonstrated non-blocking I/O patterns using `httpx` with HTTP/2 support.
+- **Thread Safety**: Robust `ThreadPoolExecutor` implementations for CPU-bound tasks.
+- **Advanced Rate Limiting**: O(1) sliding window implementation using `collections.deque`.
+
+---
+
+## 📂 Project Roadmap
+
+- [x] **Core LLM Inference**: Basic scripts for model generation.
+- [x] **Concurrency Toolkit**: Reusable executors and rate limiters.
+- [x] **Architecture Alignment**: Strict enforcement of `python-guide.md` conventions.
+- [ ] **Web API Layer**: FastAPI integration for model-as-a-service.
+- [ ] **Observability**: Structured JSON logging and OpenTelemetry integration.
+
+---
+
+## 🛠️ Usage
+
+### 🚀 Inference Quick Start
+```bash
+python3 apply_chat_template.py
+```
+
+### ⚡ Concurrency Demo
+```bash
+python3 async_demo.py
+```
+
+---
+
+## 📐 Design Philosophy
+
+This project follows the **"Surgical Precision"** principle:
+- **Minimize Abstraction**: Avoid deep inheritance or excessive design patterns.
+- **Maximum Cohesion**: Logic is kept in tight, high-performance units.
+- **Strict Typing**: 100% Type Hint coverage for safety and maintainability.
+- **O(1) Redline**: Critical paths must maintain constant-time complexity.
+
+---
+**Maintainer:** [SongJin](https://github.com/AIMWLI)
